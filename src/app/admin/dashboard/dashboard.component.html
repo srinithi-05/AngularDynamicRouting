@@ -1,0 +1,11 @@
+<h2>Admin Dashboard</h2>
+<table border="1" cellpadding="5">
+  <tr>
+    <th>Username</th>
+    <th>Role</th>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td>{{ user.username }}</td>
+    <td>{{ user.role }}</td>
+  </tr>
+</table>
